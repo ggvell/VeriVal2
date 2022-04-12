@@ -14,7 +14,7 @@ public class KitDeProdutos extends Produto {
     }
 
     public boolean isValido () {
-        return false;
+        return listaDeProdutos.size() > 0;
     }
 
     public boolean adicionarProduto (Produto produto) {

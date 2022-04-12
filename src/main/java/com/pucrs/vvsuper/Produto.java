@@ -36,7 +36,7 @@ public abstract class Produto {
 	public abstract double valorVenda();
 
 	public String toString() {
-		return "";
+		return String.format("%04d", codigo) + " " + descricao + " (R$ " + precoCusto + ")";
 	}
 
 }
